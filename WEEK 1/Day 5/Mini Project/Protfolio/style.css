@@ -1,0 +1,13 @@
+body{
+    font-family: roboto mono, monospace;
+}
+.btn {
+    background-color: orange;
+    color:blue;
+}
+
+.container 2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}

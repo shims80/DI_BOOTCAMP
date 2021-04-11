@@ -30,7 +30,7 @@ li {
 
 .middle {
     height: 250px;
-    background-image: url("water.jpg");
+    background-image: url("sea.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,10 +70,10 @@ li {
     background-color: blue;
     border-radius: 1em;
 }
-body {
+/* body {
     background-image: url(sea.jpg);
     background-size: cover;
-}
+} */
 
 
 
