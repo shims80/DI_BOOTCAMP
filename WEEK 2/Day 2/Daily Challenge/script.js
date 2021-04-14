@@ -1,9 +1,9 @@
 let sentence = ("The movie is not that bad, I like it");
 let final;
 
-let wordNot = sentence.search("not");
+let wordNot = sentence.search('not');
 
-let wordBad = sentence.search("bad");
+let wordBad = sentence.search('bad');
 
 console.log(wordNot);
 
