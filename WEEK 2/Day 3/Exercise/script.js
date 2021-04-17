@@ -1,15 +1,13 @@
 // Esersis 1
-// for (let i = 0; i <= 15; i++) {
-//     console.log(i);
-// }
-//אם המספר זוגי תדפיס משפט שאומר שהוא זוגי ואם הוא אי זוגי אז תדפיס משפט שאומר שהוא אי זוגי
+// אם המספר זוגי תדפיס משפט שאומר שהוא זוגי ואם הוא אי זוגי אז תדפיס משפט שאומר שהוא אי זוגי
 // for (let i = 0; i <= 15; i++)
 //     if (i % 2 == 0) {
 //         console.log(`${i} is EVEN!`);
 //     } else {
 //         console.log(`${i} is ODD!`);
 //     }
-// Esersis 2 (part 1)
+
+// // Esersis 2 (part 1)
 // let names = ["john", "sarah", 23, "Rudolf", 34];
 // for (let i of names) {
 //     if (Number.isInteger(i) == true) {
