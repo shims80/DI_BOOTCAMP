@@ -1,18 +1,31 @@
-// Daily Challenge: Words In The Stars :
+function starIt() {
+    sen = prompt("Enter a sentence").split(" ");
+    let longestWord = '';
+    let newsen = [];
+    let stars1 = '';
+    let stars2 = '';
 
-// 1 : Get the words(while loop)
+    for (let i of sen) {
+        if (i.length > longestWord.length) {
+            longestWord = i;
+        }
+    }
 
-// var text = prompt("Enter : Hello, World, in, a, frame").split(",");
+    for (let k of sen) {
+        for (j = k.length; j < longestWord.length; j++) {
+            k += " ";
+        }
+        newsen.push("* " + k + " *");
+    }
 
+    stars1 = '*'.repeat(longestWord.length * 1.5);
+    stars2 = stars1;
+    newsen.unshift(stars1);
+    newsen.push(stars2);
 
+    for (let t of newsen) {
+        console.log(t);
+    }
+}
 
-
-
-// // 2: Find out the longest words (for loop)
-
-
-
-
-// // 3: Build each line and send it to console (function)
-// function frame()
-
+starIt();

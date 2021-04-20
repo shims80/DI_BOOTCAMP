@@ -1,0 +1,10 @@
+ button {
+     width: 100px;
+     height: 60px;
+     background-color: lightgreen;
+ }
+ input{
+     width: 400px;
+     height: 60px;
+     border-bottom: 1em;
+ }
