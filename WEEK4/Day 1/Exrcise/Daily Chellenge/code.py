@@ -11,11 +11,7 @@ elif len(user) < 10:
 else:
     print('word too long')
 
-# word = 'helloworld'
-target = ""
-for letter in user:
-    target += letter 
-    print(target)
+
   
 
 
