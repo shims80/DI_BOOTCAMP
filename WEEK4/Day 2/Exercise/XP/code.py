@@ -68,4 +68,13 @@
 #     print("You chose a new fruit. I hope you enjoy")
 
 # Exercise 10: Who Ordered A Pizza ?
-pizza_topping = 
+# pizza_topping = 
+
+
+
+
+
+# Exercise 12 : Who Is Under 16?
+users = ("moshe","shimon","yossi","david")
+for i in users
+    if i < 17 and i
