@@ -66,30 +66,30 @@
 
 # Exercise 4: Disney Characters
 
-users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+# users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
 
-disney_user_a = {users[i]: i for i in range(0, len(users))}
-print(disney_user_a)
+# disney_user_a = {users[i]: i for i in range(0, len(users))}
+# print(disney_user_a)
 
-disney_user_b = dict(enumerate(users))
-print(disney_user_b)
+# disney_user_b = dict(enumerate(users))
+# print(disney_user_b)
 
-users = sorted(users)
-disney_user_c = {users[i]: i for i in range(0, len(users))}
-print(disney_user_c)
+# users = sorted(users)
+# disney_user_c = {users[i]: i for i in range(0, len(users))}
+# print(disney_user_c)
 
-for i_characters in users:
-    if 'i' in i_characters:
-        print(i_characters)
+# for i_characters in users:
+#     if 'i' in i_characters:
+#         print(i_characters)
 
-disney_user_e = {users[i]: i for i in range(
-    0, len(users)) if 'M' or 'P' in users[i][0]}
-print(disney_user_e)
+# disney_user_e = {users[i]: i for i in range(
+#     0, len(users)) if 'M' or 'P' in users[i][0]}
+# print(disney_user_e)
 
-for name in users:
-    if name[0] in ["M", "P"]:
-        print(name)
+# for name in users:
+#     if name[0] in ["M", "P"]:
+#         print(name)
 
-for mp_characters in users:
-    if 'M' or 'P' in mp_characters[0]:
-        print(mp_characters)
+# for mp_characters in users:
+#     if 'M' or 'P' in mp_characters[0]:
+#         print(mp_characters)
