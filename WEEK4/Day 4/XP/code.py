@@ -66,18 +66,21 @@
 
 
 # Exercise 6 : Magicians:
+magicians = ["din ", "win ", "bin ", "jin "]
+
 
 def show_magicians(magicians):
     for i in magicians:
         print(i)
 
 
-my_list = ["din ""win ""bin ""jin "]
+def make_great(magicians):
+    for i in magicians:
+        print(f'the great {i}')
+        # index = my_list.index(i)
+        # my_list[index] = 'the great' + my_list[index]
+        # print(i)
 
 
-def make_great():
-    print(f'the great din the great win the great bin the great Jin ')
-
-
-show_magicians(my_list)
-make_great()
+show_magicians(magicians)
+make_great(magicians)
