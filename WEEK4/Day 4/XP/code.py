@@ -65,22 +65,20 @@
 # make_shirts(text="i avangers")
 
 
-# Exercise 6 : Magicians:
-magicians = ["din ", "win ", "bin ", "jin "]
+# Exercise 6: Magicians:
+
+# magicians = ["din ", "win ", "bin ", "jin "]
 
 
-def show_magicians(magicians):
-    for i in magicians:
-        print(i)
+# def make_great(magicians):
+#     for i in magicians:
+#         print(f'the great {i}')
 
 
-def make_great(magicians):
-    for i in magicians:
-        print(f'the great {i}')
-        # index = my_list.index(i)
-        # my_list[index] = 'the great' + my_list[index]
-        # print(i)
+# def show_magicians(magicians):
+#     for word in magicians:
+#         print(word)
 
 
-show_magicians(magicians)
-make_great(magicians)
+# show_magicians(magicians)
+# make_great(magicians)

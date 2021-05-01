@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#spin {
+    color: red;
+    font-size: 20em;
+    margin: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#spin:after {
+    content: "";
+    animation: spin 10s linear infinite;
+    font-family: fantasy;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+@keyframes spin {
+    0% {
+        content: "Get up";
+        /* color: blue */
+    }
+
+    10% {
+        content: "Dress Up";
+        /* color: green */
+    }
+
+    20% {
+        content: "Show Up";
+        /* color: orange */
+    }
+
+    30% {
+        content: "And";
+        /* color: black; */
+    }
+
+    40% {
+        content: "Never";
+        /* color: yellowgreen */
+    }
+
+    50% {
+        content: "Give";
+        /* color: aqua */
+    }
+
+    60% {
+        content: "Up !!";
+        /* color: purple */
+    }
+}
