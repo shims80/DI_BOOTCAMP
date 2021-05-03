@@ -1,4 +1,7 @@
+# http://learn.di-learning.com/courses/collection/18/course/12/section/53/chapter/231
+
 # Exercise 1 : Favorite Numbers:
+
 # my_fav_numbers = {5, 7, 9, 20, 41, 42}
 # my_fav_numbers.add(4)
 # my_fav_numbers.add(8)
@@ -8,16 +11,19 @@
 # print(our_fav_numbers)
 
 # Exercise 2: Tuple
+
 # Given a tuple which value is integers, is it possible to add more integers to the tuple?
 # answer: no you can't add number to tuple as its immutable
 
 
 # Exercise 3: Print A Range Of Numbers
+
 # for i in range(1, 21):
 #     print(i)
 
 
 # Exercise 4: Floats
+
 # Recap – What is a float? What is the difference between an integer and a float?
 # Floats represent numbers that are written with a decimal point
 # and integers is a round number
@@ -31,6 +37,7 @@
 
 
 # Exercise 5: Shopping List
+
 # basket = ["Banana", "Apples", "Oranges", "Blueberries"]
 # basket.remove("Banana")
 # basket.remove("Blueberries")
@@ -41,6 +48,7 @@
 # print(basket)
 
 # Exercise 6 : Loop
+
 # my_name = "shimon"
 # user_names = input("Enter your name: ")
 # while user_names != my_name:
@@ -48,6 +56,7 @@
 
 
 # Exercise 7
+
 # user_list = [1, 3, 4, 5, 6, 7, 8, 9]
 # for i in user_list:
 #     if user_list.index(i) % 2 == 0:
@@ -55,6 +64,7 @@
 
 
 # Exercise 8
+
 # for i in range(1500, 2501):
 #     if i % 5 == 0 and i % 7 == 0:
 #         print(i)
@@ -67,14 +77,44 @@
 # else:
 #     print("You chose a new fruit. I hope you enjoy")
 
+# Exercise 9: Favorite Fruits
+
+# user = input("Please enter your favorit fruits with space btw each fruit ")
+# convarting_str_to_a_list = list(user)
+# user = input("enter a fruit ")
+# if user in convarting_str_to_a_list:
+#     print("you chose one of your favorit fruits! enjoy! ")
+# else:
+#     print("You chose a new fruit. I hope you enjoy")
+
+
 # Exercise 10: Who Ordered A Pizza ?
-# pizza_topping = 
+# print("topping available :onion, mushrooms,pappers,corn,green olives,black olives")
+# topping = input("Please type a pizza topping (type 'quit' to stop): ")
+# all_topping = []
+# price = 10
+# while topping != "quit":
+#     print(f'{topping} has beeing added to your pizza.')
+#     price += 2.5
+#     all_topping.append(topping)
+#     topping = input("Please type a pizza topping (type 'quit' to stop): ")
+
+# print(f'your topping are :\n {all_topping}')
+# print(f'your price is {price}')
+
+# Exercise 11: Cinemax:
+
+age = int(input("twhat is ur age ? (type '0' to stop)"))
+while age != 0:
+if age <= 3:
+    print("its free")
+if age >= 3 and age <= 12:
+    print("its 10$ for the ticket")
+else:
+    print('ticket is 15$')
 
 
-
-
-
-# Exercise 12 : Who Is Under 16?
-users = ("moshe","shimon","yossi","david")
-for i in users
-    if i < 17 and i
+# Exercise 12: Who Is Under 16?
+# users = ("moshe", "shimon", "yossi", "david")
+# for i in users
+# if i < 17 and i

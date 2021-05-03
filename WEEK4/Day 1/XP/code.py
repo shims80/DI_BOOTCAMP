@@ -1,12 +1,15 @@
+#http://learn.di-learning.com/courses/collection/18/course/12/section/52/chapter/211
+
+
 # user_number = input ('enter a number between 1 and 100')
 # if user_number.isnumeric():
-#     user_number =int(user_number)   
+#     user_number =int(user_number)
 #     if 1 < user_number < 100:
 #         if user_number % 3 == 0:
 #             print('Fizz')
 #         elif user_number % 5 == 0:
 #             print('Buzz')
-#         elif user_number % 3 == 0:      
+#         elif user_number % 3 == 0:
 #             print('fizzBuzz')
 
 
@@ -26,7 +29,7 @@
 # 3 == 3 = True
 # 3 == "3" = False
 # "3" > 3 = error as you can't comper 'str' to 'int'
-# "Hello" == "hello" = False
+# "Hello" == "hello" = False (1st Hello with capital latter)
 
 # exrcise 4:
 # computer_brand = "lenovo"
@@ -43,14 +46,14 @@
 # exrcise 6:
 # a =5
 # b =2
-# if a > b:   
+# if a > b:
 #     print('hello world')
 
 # exrcise 7:
 # user = int(input('enter a number'))
 # if (user % 2) == 0:
-#     print('number is even')  
-# else:   
+#     print('number is even')
+# else:
 #     print('number is odd')
 
 # exrcise 8:
