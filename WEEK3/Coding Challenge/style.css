@@ -21,9 +21,6 @@ body {
 #spin {
     color: red;
     font-size: 20em;
-    margin: center;
-    justify-content: center;
-    align-items: center;
 }
 
 #spin:after {

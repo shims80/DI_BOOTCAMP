@@ -89,32 +89,53 @@
 
 
 # Exercise 10: Who Ordered A Pizza ?
-# print("topping available :onion, mushrooms,pappers,corn,green olives,black olives")
+# print("topping available :onion, mushrooms,papers,corn,green olives,black olives")
 # topping = input("Please type a pizza topping (type 'quit' to stop): ")
 # all_topping = []
 # price = 10
 # while topping != "quit":
-#     print(f'{topping} has beeing added to your pizza.')
+#     print(f'{topping} has being added to your pizza.')
 #     price += 2.5
 #     all_topping.append(topping)
 #     topping = input("Please type a pizza topping (type 'quit' to stop): ")
-
+#
 # print(f'your topping are :\n {all_topping}')
 # print(f'your price is {price}')
 
 # Exercise 11: Cinemax:
 
-age = int(input("twhat is ur age ? (type '0' to stop)"))
-while age != 0:
-if age <= 3:
-    print("its free")
-if age >= 3 and age <= 12:
-    print("its 10$ for the ticket")
-else:
-    print('ticket is 15$')
+# age = int(input("what is ur age ? (type '0' to stop)"))
+# sum = 0
+# while age != 0:
+#     ticket = input("Please type 1 if you wants a ticket or 0 if he doesn't")
+#     if ticket == "1":
+#         if age > 12:
+#             sum += 15
+#         elif age > 3:
+#             sum += 10
+#     age = int(input("please type the age(type'0' to stop)"))
+# print(f"ticket price is{sum}")
+# age = int(input("please type the age(type '0' to stop):"))
+# teens = []
+# while age != 0:
+#     name = input("please typr your name")
+#     if age > 16 and age < 21:
+#         teens.append(name)
+#     age = int(input("please type the age(type '0' to stop)"))
+# print(f"the teens are :{teens}")
 
 
 # Exercise 12: Who Is Under 16?
 # users = ("moshe", "shimon", "yossi", "david")
 # for i in users
 # if i < 17 and i
+
+# Exercise 13
+
+# sandwich_orders = ["tuna", "chesse", "falafel"]
+# finished_sandwiches = []
+# new_send_list = send_list.copy()
+# print(f'new_send_list)
+
+# d = "ddar astronaut. pldase, stop drasing md!"
+# new_d = d[0] + d[1:].replace(replacement, 'e')
