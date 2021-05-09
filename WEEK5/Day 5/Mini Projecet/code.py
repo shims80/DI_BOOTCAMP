@@ -33,12 +33,12 @@ def play_best_of(n):
     # to win, you must win ceil(n/2) games (ie 2/3, 3/5, 4/7)
     player_wins = 0
     computer_wins = 0
-    wins_necessary = math.ceil(n/2)
+    wins_necessary = math.ceil(n/1)
     while player_wins < wins_necessary and computer_wins < wins_necessary:
         result, user, computer = play()
         # tie
         if result == 0:
-            print('it is a tie. you and the computer have both chosen {}.\n'.format(user))
+            print(' you and the computer have both chosen {}.IT\'S A TIE\n'.format(user))
         # you win
         elif result == 1:
             player_wins += 1
@@ -48,7 +48,7 @@ def play_best_of(n):
             computer_wins += 1
             print(
                 'you chose {} and computer chose {} YOU LOST :(\n'.format(user, computer))
-        print('\n')
+        
     if player_wins > computer_wins:
         print('you have won the best of {} games!'.format(n))
     else:
