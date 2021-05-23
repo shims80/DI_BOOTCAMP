@@ -1,3 +1,5 @@
+# http://learn.di-learning.com/courses/collection/18/course/12/section/54/chapter/246
+
 # Exercise 1: Convert Lists Into Dictionaries
 # keys = ['Ten', 'Twenty', 'Thirty']
 # values = [10, 20, 30]
@@ -8,18 +10,18 @@
 
 # Exercise 2 : Cinemax #2 :
 
-# family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
-# price = 0
-
-# for age, name family.items():
-#     if age <= 3:
-#         price = 0
-#         print(f'{name} pays {price}$')
-#     elif age = > 3 and age = < 12:
-#         price += 10
-#     elif age >= 12:
-#         price += 15
-# print(f'{name} pays {price}$')
+# family = {"rick": 43, "beth": 13, "morty": 5, "summer": 8}
+# sum = 0
+# for name, age in family.items():
+#     if age < 3:
+#         print(f"{name} doesn't have to pay")
+#     elif age < 12:
+#         print(f"{name} have to pay 10$")
+#         sum += 10
+#     else:
+#         print(f"{name} have to pay 15$")
+#         sum += 15
+# print("total family cost", sum)
 
 
 # Exercise 3: Zara
@@ -93,3 +95,8 @@
 # for mp_characters in users:
 #     if 'M' or 'P' in mp_characters[0]:
 #         print(mp_characters)
+
+
+name = input("please enter your name  ")
+
+print(name.upper // ())

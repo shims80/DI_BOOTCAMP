@@ -3,14 +3,11 @@
 # }
 # sampleDict["class"]["student"]["marks"]["history"]
 
-# for key, value in person_dict.items():
+# for key, value in sampleDict.items():
 #     print(f'{key}:{value}')
 
 
-
-
-
-#Building dictionaries with zip and multiple lists
+# Building dictionaries with zip and multiple lists
 
 # names = ['Rick', 'Morty', 'Summer']
 # grades = [10,20,30,40,50]
@@ -20,9 +17,9 @@
 # for name, grade, age in zip(names, grades, ages):
 #     people.append({'name':name, 'grade':grade, 'age':age})
 # print(people)
-            
 
-#list comprehension
+
+# list comprehension
 # letters = 'abcde'
 # output = [letter * 3 for letter in letters]
 # print(output)
@@ -32,3 +29,17 @@
 # for letter in letters:
 #     output.append(letter * 3)
 # print(output)
+
+sampleDict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"
+
+}
+
+del sampleDict["name"]
+del sampleDict["salary"]
+print(sampleDict)
+
+

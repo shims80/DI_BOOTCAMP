@@ -69,7 +69,7 @@
 #     if i % 5 == 0 and i % 7 == 0:
 #         print(i)
 
-# Exercise 9: Favorite Fruits
+# # Exercise 9: Favorite Fruits
 # user = input("please enter fruits ").split(" ")
 # fav_fruits = input("Enter a fruit ")
 # if fav_fruits in user:

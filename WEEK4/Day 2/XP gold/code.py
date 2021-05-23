@@ -64,9 +64,9 @@
 
 # Exercise 6 :
 
-list_1 = [1, 100000000]
+# list_1 = [1, 100000000]
 
-print(min(list_1)
+# print(min(list_1)
 
 
 # max(list_1)
