@@ -1,0 +1,49 @@
+creating virtual environment:
+
+pip install virtualenv
+python3 -m venv "name of the environment"
+
+activating virtual environment:
+  
+in CMD go to "Scripts" folder and type "activate"
+"deactivate" to exit the current environment
+
+installing django inside the environment:
+
+pip install django is the environment folder
+in terminal type pip freeze to check installed packages 
+python -m django --version to check version 
+
+creating the folders and apps:
+
+django-admin startproject "name of the project"
+python manage.py startapp "name of the app"
+
+inside the project file setting add the app name to INSTALLED_APPS List
+in the app folder creat a file name urls.py and add :
+from django.urls import path
+from . import views   
+
+in the views.py file Create new views within the page 
+Example:
+def view_name(request):
+	return HttpResponse('<h1>Home page<h1>')
+
+making migratin of of model.py to DB (sqlite3)
+
+python manage.py makemigrations
+python manage.py migrate
+
+for seeing the DB that will be created :
+python manage.py sqlmigrate name of the app + the number in the _initial.py after we enter makemigrations comand (ex :python manage.py sqlmigrate blog 0001)
+
+run the project server :
+
+python manage.py runserver
+
+run the shell in the terminal
+
+python manage.py shell
+
+create user :
+python manage.py createsuperuser
