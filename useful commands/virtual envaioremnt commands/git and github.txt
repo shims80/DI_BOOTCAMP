@@ -1,0 +1,20 @@
+git comandes :
+
+start project:
+in the folder type git init
+in github open new repository 
+git remote add origin https://github.com/shims80/blal.git
+git branch -M main
+git push -u origin main
+
+to ignore the virtual envaiorment = echo > .gitignore (creat file to ignore other files to be sent to github)
+
+removing files from local repo AND remote(github)
+
+git rm <filename>
+git rm -r <folder_name>
+
+removing files from remote(github) only (untracking existing files)
+
+git rm --cached <filename>
+git rm -r --cached <folder_name>
